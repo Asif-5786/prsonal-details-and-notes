@@ -1,0 +1,60 @@
+events:
+1.lmr
+		1.1:question button clciked(faqs)
+		1.2:answer viewed duration(lmr)
+		1.3:lmr screen time spent
+2.pdf(lmr)
+		2.1:pdf screen time spent
+		2.2:bookmark button clicked
+3.topic notes 
+		3.1:topic notes screen time spent	=>unit page view topic notes, unit button clicked topic notes
+4.video 
+		4.1:video clicked
+5.internal assessment
+		5.1:internal assessment time spent
+		5.2:page view internal assessment
+6.pyqs
+		6.1:answer viewed duration (pyqs);
+		6.2:question page viewed (pyqs)
+		6.3:exam paper screen time spent
+		6.4:exam paper data loaded
+		6.5:exampaper load error
+		6.6:question button clicked(pyqs);
+		6.7:locked content clicked(pyqs)
+		6.8:video content played.
+		
+7.Session Start
+8.App login
+9.Locked Icon Clicked
+10.Book Clicked.
+11.description button clicked
+12.syllabus button clicked.
+13.topic notes button clicked
+14.faq button clicked.
+15.pdf button clicked.
+16.exam-qp button clicked.
+17.videos button clicked.
+18.internal-assessment button clicked.
+19.tips-trick button clicked.
+20.Syllabus
+		20.1:Syllabus Page Vie
+		20.2.Exit syllabus page.
+21.registration
+		21.1:selection of state button
+		21.2:university selection
+		21.3:course selection
+		21.4:regulation selection
+		21.5:semester selection
+		21.6:college selection
+		21.7:user registration details.
+		21.8:Other Course Clicked
+		21.9:Other University Clicked
+
+22:select books button clicked.(description page)
+23.proceed button clciked(subscription page)
+24.course bought(free).
+25.purchase complete(paid)
+26.Ad Clicked, Ad Viewed.
+27.Banner Clicked.
+28.mybooksscreenviewed(storescreen.js)
+
