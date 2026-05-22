@@ -1,0 +1,32 @@
+Daily Activity:
+
+4-5-26:revise the typescript concepts in the office.
+5-5-26:app testing for release 
+6-5-26:learned js arrays(array iterations) from w3schools:i can forget it anytime.
+			forEach,map,flatMap,filter,reduce,every,some,from,keys,entries,with,spread,rest
+7-5-26:Total Waste.
+8-5-26:learned js arrays(array search and array methods) from w3schools:i can forget it anytime.
+			indexOf,lastIndexOf,includes,find,findIndex,findLast,findLastIndex
+			length,toString,at,join,pop,push,shift,unshift,Array.isArray,delete,concat,flat,slice,splice
+			
+ in a component i use state and that state is accessible to the fuction used in the component.this is closure effect, and closure also helps us in avoiding binding used in functions.
+
+9,10,11-5-26:app release work
+12-5-26:learned how to merge two branches , resolve the conflict.
+explanation:your project in the machine is in the branch name "16kboptimization".now you want to merge the project in local with branch "build68" which is remote repo.
+so in your local u run the command git merge build68.all the changes files in the build86 gets merge with the local project which is in 16kb branch.there might
+be some conflicts in the files.files which donot have conflicts directly gets staged but conflicts files sits in the merge folder.so open the files in merge folderand resolve the conflicts one by one.after resolving the conflict in each file press complete merge so that resolved files gets automatically staged.once all file staged , 
+commit them in local.now you need to push them to 16kboptimization branch so that your remote repo also gets merged with build68 branch.
+
+13:learned java by telusko,
+
+react native:wrap your app componet with safeareaprovider from reactnativesafeareacontext.so that u can use either safeareaview or safeareainsets in each screen u want.Learned about usecontext for theming and statusbar usage in the app.	
+in stacknavigation, home=>profile, if a user goes from home to profile, then profile screen is mounted and home screen also remains mounted(mounted===instance saved in the ram of the mobile phone.all the state, variables, return of that screen are saved in the ram memory).but when user goback from profile to home, profile is unmounted
+and home as usual remains mounted.in the same way app.js always lives in the memory of the user until the user closes the app.
+
+14-5-26:learned java from telusko and w3schools.
+15-5-26:learned java from telusko and w3schools.
+16-6-26:learned java from telusko and w3schools.
+17-6-26:learned java from telusko and w3schools
+18-6-26:tried to write the lmrquestionanswerscreen code by myself.just wrote 90 lines thats it.learned stash and stash pop.
+19-6-26:learned java from telusko and w3schools and uzipped the kindle code and gone through it.

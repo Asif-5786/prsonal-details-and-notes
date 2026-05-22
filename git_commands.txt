@@ -1,0 +1,172 @@
+1.To see all git commands=>git
+2.to clear the text=>clear
+3.pwd=>present working directory
+4.git config user.name "asif5786"
+5.git config user.email "rehmanasif1009@gmail.com"
+git config --list
+git config --global user.name "full name":for setting for all projects.
+git config --global user.email "EmailID" 
+git config --global color.ui auto
+git init =>inside the folder.
+git status =>inside the folder
+git add --a=>to send files to staging.orelse git add .
+git commit -m "first commit"
+git log
+git restore index.js(this file was deleted but before commit, we have done undo to our changes)
+git add index.html   (to stage individual file)
+git restore --staged index.html (to unstage individual file)
+git clone https://github.com/banago/simple-php-website.git
+git --help
+ls (to view list of files)
+cd s(press tab)
+create file .gitignore (under that name the files, folder which you want to ignore like *.log,*.css,*.js,demo/)
+git diff  (it compares vhat is changed in the file vhich is not staged)
+git diff --staged(compared code with staging area and last commit)
+git diff product1.txt
+git commit -a -m "changes in one file" =>directly commit without ataging.but untracked filea are not committed.for untracked files first you need to add it in staging and then commit is possible.
+git restore index.html   (restore the file from the last commit) orlese git checkout index.html
+git checkout -f(to restore all files of the folder)
+when you commit the file and afterwards you rename it, git thinks the file is deleted and cosider the rename file as untracked.but dont panic just do "git add ." and now git understands the file is renamed."R" appears on the fie.now you can commit it.
+please dont delete any file, just just type the command "git rm index.html"[now the file is deleted from the project as well as committed by git itself automatically]
+even after placing the file in .gitignore, the file is being tracked by git then run the command "git rm --cached index.html"   (now git considers the file as deleted and does not track) now run the command "git commit -m "deleted index.html"
+git revert HEAD(to rollback last commit)
+git checkout -b DevA(to create new brach and automatically svitch to that branch) or git branch DevA(to create a new branch) or git switch -c sibling
+git checkout master (to move to branch master)  or git switch child
+git branch(to view list of branches for a project.
+git branch -d latestUi(to delete a branch but this is in local).so then do "git push"
+git merge devA(first be on master and then run the command, master vill be merged to dev but this happens in local)so then "git push"
+git pull origin master
+git remote -v
+rollback to previous commit:git reset --hard	
+git push
+rename  a file:git mv index.html index1.html
+git push origin DevA
+git rebase feature1(you have to be on branch "master"you have to be on branch master and ttype the command in order to move vork of feature1 into master.)
+git stash(to temporary save the staged and modified file before moving to another branch)
+git stash pop(to bring back the modified or staged file after coming back to the respective branch).
+git remote -v(inorder to knov the local repo is connected to vhich remote repo)
+git push origin feature1(push the branch created in local to github repo)
+git merge --abort(if in a file , there is a conflict and you dont vant any incoming changes then this command vill help you.)
+git diff also help you to find the code of a file vhich is conflicted.for example vhen there is a conflict in file, and then git diff helps to knov vhy the conflict happend so that you can open that particular file and resolve it easily.aftervards dont forget to commit.
+
+create a .gitingore file in the project , add vhatever files you dont vant git to track in the .gitignore file.
+and commit and push it in the remote repo.git vill ignore all the changes in the files vhich are present in the .gitignore file.nov again you vant other files also git to ignore then add the file name in .gitnore file and commit and push the .gitignore file.thats it.
+
+git branch -a (to see all the branches)
+git branch(for only local branches)
+git branch -r(for only remote branch)
+git fetch --all (to download all the branches if few are not visible on your machine)
+
+"origin" is the name Git gives to the remote copy of your repository (usually the one on GitHub or another server).
+"HEAD" is a pointer that means "the current branch" or "the default reference" in a repo.
+"remotes/origin/HEAD -> origin/main" says that on the remote named origin, HEAD points to the branch called main.
+In simple terms: the remote's default branch is main. When someone clones the repo, Git will use origin/main as the default branch.
+
+when you merge devB into DevA, all the modified files are staged automatically if conflict does not exist.all the conflict files are put under the folder name "merge changes", you need to resolve the conflict and then stage them one by one.there is also files under name "changes" these are the modifiled while which already exixted before the merge happend.
+
+
+you cannot directly switch from branch a to branch b if you have conflicts, orlese modified files in your project.you need to resolve the conflicts and stash the modified changes before switching to other branch.
+_______________________________________________________________________________________________
+
+
+git --version
+cd one=>ls (to view all files)
+
+git config --global user.email "rehmanasif1009@gmail.com"
+git config --global user.name "asif5786"
+once code is committed. repo is created.
+git log --oneline
+
+1. Create & Switch	git checkout -b <new-branch-name>
+2. Stage Files	git add .
+3. Save Changes	git commit -m "Initial commit on new branch"
+4. Push to Remote	git push -u origin <new-branch-name>
+
+
+Stash your changes in branch b1 using a descriptive message:
+bash
+git stash push -m "work in progress on b1"  (# While on branch b1
+git stash push -u -m "WIP with new files"
+)
+
+This command saves your modified tracked files and staged changes onto a stack and reverts your working directory to the HEAD commit of branch b1.
+Verify your working directory is clean:
+bash
+git status
+The output should indicate that you have a clean working directory.
+Switch to branch b2:
+bash
+git switch b2
+# Or, using the older command:
+# git checkout b2
+You are now safely on branch b2 and can work on it without your b1 modifications interfering.
+When you want to return to branch b1, switch back to it:
+bash
+git switch b1
+# Or:
+# git checkout b1
+Reapply your stashed changes to branch b1 using git stash pop or git stash apply.
+git stash pop applies the most recent stash and removes it from the stash list, which is common if you're done with the stash.
+git stash apply applies the changes but keeps the stash in the list for potential use later (e.g., applying to another branch for experimentation). 
+
+
+
+Find the Process ID (PID):
+netstat -ano | findstr :8081
+Kill it (replace 1234 with the PID from the result):
+taskkill /PID 1234 /F 
+
+
+3. Alternative: Manual Build (More Reliable)
+If the run-android command fails, it is often more reliable to build the APK manually using Gradle: 
+Navigate to the android folder: cd android
+Clean previous builds: ./gradlew clean
+Generate the APK: ./gradlew assembleRelease.
+The final APK will be located at: android/app/build/outputs/apk/release/app-release.apk. 
+
+
+The "Kitchen" (Gradle) doesn't know how to "Android." The AGP is what tells the kitchen: "To make an Android app, you must specifically squish the code into .dex files, bundle the images into an APK, and sign it with a digital key."
+
+Without the plugin, Gradle is just a general-purpose automation tool that could be used for building websites, Java libraries, or even desktop apps. AGP is the "Android specialist" that moves in.
+
+watchman watch-del-all
+npm start-- --reset-cache
+
+(in macos if metro is already runnin somewhere then run:lsof -ti:8081|xargs kill )
+
+
+Kondalu Mentor ship code merge to 16kb branch plan:
+1.Fetch the remote mentorship branch (without merging):
+git fetch origin mentorship
+2.View what files are available on mentorship
+git ls-tree origin/mentorship --name-only -r
+3.Pull a specific file from mentorship
+git checkout origin/mentorship -- path/to/your/file
+4. Review the pulled file
+git diff --cached path/to/your/file
+5. If you're happy with the changes, commit
+git commit -m "Added [filename] from mentorship branch"
+6.If you're NOT happy, unstage it
+git reset HEAD path/to/your/file        # Unstage
+git checkout -- path/to/your/file       # Revert to previous state
+
+			OR
+			
+# Start on 16kb
+git checkout 16kb
+
+# Fetch the remote branch
+git fetch origin mentorship
+
+# Pull first file
+git checkout origin/mentorship -- src/components/Button.js
+git diff --cached src/components/Button.js  # Review
+git commit -m "feat: add Button component from mentorship"
+
+# Pull second file
+git checkout origin/mentorship -- package.json
+git diff --cached package.json               # Review
+git commit -m "chore: update package.json from mentorship"
+
+# Push everything to remote 16kb
+git push origin 16kb

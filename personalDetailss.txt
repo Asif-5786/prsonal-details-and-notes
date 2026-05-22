@@ -1,0 +1,206 @@
+
+api auth code : 82533bf8-7c3d-4bc5-bc40-683b7d01fc88
+
+npx react-native run-android --mode=release
+
+
+FTP credentials:
+89.116.138.239
+
+password: 1_r9OKwQY0y4EGBvC
+
+user: u313217784.sia_ftp
+
+siapublishersonline@gmail
+SiaAllinOne@1979
+
+gmail:imros@100786
+
+gmail:rehmanasif5786@gmail.com,imros@786
+
+instagram:rehmanasif5786,imros786
+
+hdfc:syed@5786:58489889
+
+facebook:7036375481,imros786
+
+company:asif@siaedutech.com
+password:imros@1007
+
+sandbox account:
+
+asif@siaedutech.com:Imros@1009
+
+appleaccount:rehmanasif1009@gmail.com:Imros@1009
+
+github:rehmanasif1009@gmail
+
+appsflyer:asif@siaedutech.com;Imros@1009
+
+appstoreconnect:
+siaedutech@icloud.com 
+SiaNexT@1979
+
+hostinger credentials:
+server: 147.93.24.240
+port: 21
+username: u305410823.siaftp
+password:1_r9OKwQY0y4EGBvC
+
+portal.sianext.com/login:kondalu5282@gmail.com,passvord:Kondalu5282
+
+stg-portal.sianext.com
+
+
+gitlab:imros@5786,username:Asif-5786,Email
+asif@siaedutech.com
+
+These are the libraries (packages) your project depends on:
+express: A minimal web framework for building APIs and servers.
+cors: Middleware to allow Cross-Origin Resource Sharing (used for connecting frontend and backend).
+nodemon: A tool that automatically restarts your server when file changes are detected (useful during development).
+socket.io: Enables real-time, bidirectional communication between client and server (e.g., for chat apps).
+
+Let’s imagine you're building a chat application or a multiplayer game where multiple users are connected to the same server via WebSocket.
+
+export const socket = io.connect("http://10.0.2.2:4000/");
+Connects your React Native app to a Socket.IO server running on your machine at port 4000
+
+This is the actual real-time connection using WebSockets (via Socket.IO)
+
+
+
+first name:syed
+last name:Asif
+doib:18th nov 	2025
+payment method:net banking
+email:asifsiaedutech.com
+passord:imros786@M
+
+december:2025:react native(review sia mobile app),
+january && febrauary 2026:react js,typescript(sangam mukherjee)&& react native(sg codes)&& redux(coder dost)&&react query(tanstack query)by thapa technical&&epub using type script by victor soares github code.
+march:fastapi
+april:fastapi  geeky shovs paid course.
+may:devops:(part-1,2,3)
+june:devops (sangam mukherjee)
+july:sql,git&github(geeky shows)
+
+data analyst:
+
+excel,powerbpi,tableau,sql.
+
+
+s,r,k,d,p,t,n,f,a,p,m,f,k,unknovn
+
+
+for face:
+
+eat:papaya,atermelon,strabery,oranges,avacado.
+50gm beetroot povder,50gm moringa povder,50gm meethidana povder(fenugreek seed povder),50gm mulethi povder,50gmcurry leaf povder.mix in container and eat daily 1 spoon
+eat cabage,broculi,spanish,boiled egg.salmon fish also.
+decrese veight
+vear sunscreen even in indorr .and also apply aloevera.
+use cleanser instead of soap, consult dermatalogist for skin based cleanser.
+
+
+for pigmentation.
+
+take juice of 1 potato, add 4 tea spoon of milk , 10 drops of lemon essential oil, tvo pinches of milethi, nov store the paste in tray in fridge and once ice cubes are made, apply 3 cubes on effected area and leave it for 10 mins then rinse the face.do the procedure in morning and evening for tventy days.vash the face vith besan and apply ve herbal kumkumadi sunshield screen.apply kumkumadi oil on face every night or else use kumkumadi face screen in night for mosturizing.
+
+face vash
+tvo tea spoon besan, 1 tea spoon lemon, and milk , paste and then apply on face.keep for tventy five minutes and then vash.orelse tvo tea spoon besan vith tvo tea spoon curd, make paste and apply on face.
+for pigmentation, mix potato juice vith besan and apply on face and then rinse.
+
+meatigo app for fish.please dovnload it.
+
+
+
+github,html,css,tailvind,js, react native, react js, typescript
+
+
+
+
+
+curl -X 'GET' \
+  'https://api.sianext.com/api/v1/lookups' \
+  -H 'accept: */*' \
+  -H 'X-AUTH-CODE: 82533bf8-7c3d-4bc5-bc40-683b7d01fc88' \
+  -H 'X-USER-ID: 22700' \
+  -H 'X-DEVICE-ID: xyz'
+  
+  
+  1.subscribe now in topic notes.
+ 
+  3.apps flyer link track in website.
+  
+  user clicks the buy now button in campaign, navigate to website, purchase the book from website , navigate to playstore and install the app (track the user campaign data in mixpanel and attribution goes to the campaign name) 
+  
+  
+  5.integrate mixpanel in the appsflyer by providing it the mixpanel token.
+ 
+  When you type localhost, you are telling your browser: "Don't go out to the internet (Google, Facebook, etc.). Stay inside this machine and look for a website here."
+
+2. The ":5173" Part (The Room Number)
+5173 is the Port Number.
+
+Your computer can do many things at once (Email, Spotify, Zoom). Ports are like "doors" or "room numbers" that keep different apps from bumping into each other.
+
+Vite (the tool you are likely using for React) defaults to Room 5173.
+
+147.93.24.240
+This is an IP Address. Just like your house has a physical address, every computer connected to the internet has a numerical address. This specific number points to a computer (a server) owned by a hosting company (likely Hostinger, based on the username).
+
+
+Think of a Restaurant:
+The Building (Hardware): This is your Laptop. It provides the space, the kitchen (Processor), and the pantry (500GB Hard Drive).
+The Chef (Software): This is Metro. The chef takes ingredients from the pantry, prepares them, and "serves" the meal to the customer.
+So, when you run your React Native project:
+Your laptop (Hardware Server) is hosting the Metro program (Software Server), which reads your hard drive to send code to your phone.
+
+
+The WebSocket connection between your computer and the mobile device/emulator has been broken
+
+This connection is what allows you to see console logs, set breakpoints, and inspect components
+
+
+tt, reactjs with typescript, java, springboot, 
+
+
+first uninstall the library from package.json, cd ios and then rm -rf Pods.these deleted the pods folder which is like node_modues.and now do pod install.now cocoapods 
+gets activated and it checks the podsfile (package.json) and it created the pods folder and link the package automatically with the ios project.
+
+redux rule:reducers should be pure no side effects,states should be immutable, dont modify state directly. always make  a copy.
+Technologies to learn brfore making resume:
+
+1.tailwindcss,javascript,typescript,
+2.reactjs with tailwindcss,with shadcn,with material ui,with typescript,redux tool kit, with persistor, tanstackquery, async thunk, saga ,rtk query etc.
+3.react native with tailwindcss, with typescript (android and ios)(cli and expo)
+4.next js
+5.git & github.
+6.nodejs,express js, nest js,
+
+note:read all this technologies again and again in order to get perfect.
+
+
+
+home.
+1.rtk
+2.rtk query for rest apis
+3.rtk async thunk
+4.redux saga
+5.typescript
+6.redux persistor(mr dev geek 90 mins)
+7.tanstack query with persistor.(thapa technical 220 mins)
+
+
+
+//*******************************************************
+
+may in office and home:
+app operation.
+
+//**********************************************************
+
+electoralsearch.gov.in
+
+screenId=7:lmr,pdf,8:topicNotes,10:internalAssement,11:videos,14:tipstricks,15:exercise,5:examQp
