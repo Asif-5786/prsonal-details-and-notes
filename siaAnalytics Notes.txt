@@ -1,0 +1,28 @@
+															Sia Analytic Tool Notes
+															
+1.zustand is a state management tool."create" is a function from zustand library.
+2.api object is used to make http request.
+3.persist middleware:
+without persist: user logs in=>State has isAuthenticated: true=>User refreshes the page=>State resets to false - User is logged out!
+with persist:User logs in=>State has isAuthenticated: true=>Middleware automatically saves state to localStorage=>User refreshes the page=>Middleware loads saved state from localStorage=>State still has isAuthenticated: true - User stays logged in!.
+4.create<AuthState>(): Calls the Zustand create function with your interface type
+
+			Dashboard
+
+useMemo: React hook that remembers calculated values
+
+useQuery: React Query hook for fetching data from APIs
+
+api:getAnalyticsSummary is used to fetch the data from server like, TotalEvents,Notification Sent,Delivery Rates,Open Rates,Click Rate,Average Cost for the last 7 days.
+
+			Templates:
+url:analytics.sianext.com/templates
+
+api.gettemplates:to fetch all the templates from the backend.(OR) GET /api/v1/admin/templates?page=0&size=20
+
+api: mutationFn: (data: any) => api.createTemplate(data),in order to create a new template.
+
+				rules
+analytics.sianext.com/rules
+
+
