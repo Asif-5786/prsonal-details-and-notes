@@ -26,7 +26,12 @@ and home as usual remains mounted.in the same way app.js always lives in the mem
 
 14-5-26:learned java from telusko and w3schools.
 15-5-26:learned java from telusko and w3schools.
-16-6-26:learned java from telusko and w3schools.
-17-6-26:learned java from telusko and w3schools
-18-6-26:tried to write the lmrquestionanswerscreen code by myself.just wrote 90 lines thats it.learned stash and stash pop.
-19-6-26:learned java from telusko and w3schools and uzipped the kindle code and gone through it.
+16-5-26:learned java from telusko and w3schools.
+17-5-26:learned java from telusko and w3schools
+18-5-26:tried to write the lmrquestionanswerscreen code by myself.just wrote 90 lines thats it.learned stash and stash pop.
+19-5-26:learned java from telusko and w3schools and uzipped the kindle code and gone through it.
+20-5-26:worked for app offline mode
+21-5-26:worked for app offline mode and helped kondalu in first stash the changes, switch the branch , pop the changes, conflict resolving, creating  a branch in local , pushing the branch in remote , committing all the stash stages in mentorship branch.
+22-5-26:understanding the project
+23-5-26:understanding the project
+24-5-26:worked for app offline mode && understanding the project
